@@ -1,0 +1,506 @@
+    1  netstat -p
+    2  sudo apt install net-tools
+    3  ifconfig
+    4  clear
+    5  netstat -pantu
+    6  clear
+    7  shutdown now
+    8  ifconfig
+    9  shutdown now
+   10  clear
+   11  ls
+   12  mkdir nodejshttps
+   13  cd nodejshttps/
+   14  npm init -y
+   15  sudo apt update -y && sudo apt upgrade -y 
+   16  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
+   17  clear
+   18  sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
+   19  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+   20  source ~/.bashrc
+   21  export NVM_DIR="$HOME/.nvm"
+   22  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+   23  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
+   24  nvm list-remote
+   25  nvm install v20.12.2
+   26  node
+   27  clear
+   28  ls
+   29  npm init -y
+   30  sudo vi index.js
+   31  node index.js
+   32  sudo vi index.js
+   33  node index.js
+   34  npm install express
+   35  node index.js
+   36  openssl genrsa -out key.pem
+   37  openssl req -new -key key.pem -out csr.pem
+   38  clear
+   39  openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+   40  clear
+   41  vi index.js
+   42  node index.js
+   43  sudo snap install --classic certbot
+   44  certbot --version
+   45  certbot certonly --standalone -d 10.100.230.210:4000
+   46  sudo certbot certonly --standalone -d 10.100.230.210:4000
+   47  clear
+   48  sudo apt install git
+   49  clear
+   50  nproc
+   51  vi index.js 
+   52  node index.js
+   53  vi index.js 
+   54  node index.js
+   55  vi package
+   56  vi package.json 
+   57  node index.js
+   58  vi package.json 
+   59  vi index.js 
+   60  node index.js
+   61  npm install loadtest 
+   62  npx loadtest -n 1200 -c 400 -k http://localhost:3000/heavy
+   63  npx loadtest -n 1200 -c 400 -k http://localhost:3000/testing
+   64  node index.js
+   65  vi index.js 
+   66  npx loadtest -n 1200 -c 400 -k http://localhost:4000/heavy
+   67  npx loadtest -n 1200 -c 400 -k http://localhost:4000/testing
+   68  vi primary.js
+   69  node primary.js
+   70  vi primary.js
+   71  node primary.js
+   72  vi primary.js
+   73  node primary.js
+   74  node index.js
+   75  node primary.js
+   76  clear
+   77  ls
+   78  cp index.js index.js.bak
+   79  vi index.js
+   80  node index.js
+   81  vi index.js
+   82  node index.js
+   83  vi index.js
+   84  node index.js
+   85  vi index.js
+   86  node index.js
+   87  vi index.js
+   88  node index.js
+   89  vi index.js
+   90  node index.js
+   91  vi index.js
+   92  node index.js
+   93  vi index.js
+   94  node index.js
+   95  vi index.js
+   96  node index.js
+   97  vi index.js
+   98  node index.js
+   99  vi index.js
+  100  clear
+  101  cp index.js.bak index.js
+  102  npm install pm2@latest
+  103  pm2 start index.js
+  104  npm install pm2@latest -g
+  105  pm2 start index.js
+  106  pm2 stop index.js
+  107  pm2 start index.js -i 4
+  108  pm2 show index
+  109  pm2 delete all
+  110  pm2 start index.js --name "API" -e api.log -o api.log --merge-log
+  111  pm2 start index.js --name "API" -e api.log -o api.log --merge-logs
+  112  ls
+  113  cat api.log
+  114  clear
+  115  pm2 delete API
+  116  pm2 start index.js --name "API" -e api.log -o api.log --merge-logs -i max
+  117  pm2 delete all
+  118  npm install nginx
+  119  npm remove nginx
+  120  sudo apt install nginx -y
+  121  sudo systemctl enable nginx
+  122  sudo systemctl start nginx
+  123  ls
+  124  cd church_website
+  125  ls
+  126  cd server
+  127  ls
+  128  cat .env
+  129  npx dotenv-vault@latest pull staging
+  130  cat .env.staging
+  131  npx dotenv@latest pull
+  132  npx dotenv-vault@latest pull
+  133  npx dotenv-vault@latest pull staging
+  134  cat .env.staging
+  135  rm .env.staging
+  136  npx dotenv-vault@latest pull staging
+  137  cat .env.staging
+  138  clear
+  139  cp .env.bak .env
+  140  cat .env
+  141  clear
+  142  cd ../
+  143  client
+  144  cd client
+  145  ls
+  146  clear
+  147  npm install 
+  148  npm run build
+  149  clear
+  150  npm run dev
+  151  npm run dev --host
+  152  vi vite.config.ts 
+  153  npm run dev --host
+  154  vi vite.config.ts 
+  155  npm run dev --host
+  156  ls
+  157  ls -al
+  158  cat .env
+  159  vi .env 
+  160  npm run dev --host
+  161  vi .env 
+  162  cat src/hook/useEvents.tsx
+  163  ls
+  164  cat src/hook/useEvent.tsx
+  165  ls src/hook/
+  166  cat src/hooks/useEvent.tsx
+  167  vi .env 
+  168  npm run dev --host
+  169  ls
+  170  rm -d -r dist
+  171  ls 
+  172  npm run build
+  173  cp ./dist/* /var/www/html/
+  174  sudo cp ./dist/* /var/www/html/
+  175  sudo cp -r ./dist/* /var/www/html/
+  176  npm run dev
+  177  clear
+  178  cd dev
+  179  cd src
+  180  cd hooks/
+  181  ls
+  182  cat AuthHook.js 
+  183  ls ../
+  184  cd constants
+  185  cd cd ../constants/
+  186  ls
+  187  cat index.js
+  188  cd ../constants/
+  189  ls
+  190  cat index.js 
+  191  cat routes.js 
+  192  vi routes.js 
+  193  cd ../../
+  194  vi .env
+  195  clear
+  196  npm run dev
+  197  ls
+  198  npm run build
+  199  ls
+  200  cd dist
+  201  ls
+  202  cd ../
+  203  ls
+  204  npm run dev
+  205  clear
+  206  ls
+  207  clear
+  208  git pull https://github.com/afficode/frontend.git
+  209  git clone https://github.com/afficode/frontend.git dev
+  210  ls
+  211  cd dev
+  212  ls
+  213  git branch
+  214  git checkout dev
+  215  git checkout
+  216  git branch
+  217  clear
+  218  ls
+  219  vi .env
+  220  ls 
+  221  ls -al
+  222  cat vite.config.js
+  223  vi vite.config.js
+  224  cat vite.config.js
+  225  npm install
+  226  npm run dev
+  227  ls -al
+  228  cat .env
+  229  clear
+  230  ls
+  231  cd src
+  232  ls
+  233  cd constants/
+  234  ls
+  235  cat routes.js
+  236  cd ../
+  237  ls
+  238  cd hooks
+  239  ls
+  240  cat AuthHook.js 
+  241  clear
+  242  vi AuthHook.js 
+  243  cd ../../
+  244  ls
+  245  cd src
+  246  cd constants/
+  247  ls
+  248  vi routes.js 
+  249  cd ../../
+  250  cd ../
+  251  ls
+  252  ls /var/
+  253  ls /var/local/
+  254  ls
+  255  cd church_website/
+  256  ls
+  257  cd ../
+  258  ls
+  259  clear
+  260  ls
+  261  ls /
+  262  ls /usr/
+  263  ls /usr/local
+  264  ls /usr/local/share/
+  265  ls /var
+  266  ls /var/www/
+  267  ls /var/www/html
+  268  mv /var/www/html/* /var/www/church/
+  269  mkdir /var/www/church/
+  270  sudo mkdir /var/www/church/
+  271  mv /var/www/html/* /var/www/church/
+  272  sudo mv /var/www/html/* /var/www/church/
+  273  cat /var/www/html/
+  274  ls /var/www/html/
+  275  cd dev
+  276  cd dist
+  277  sudo cp ./* /var/www/html/
+  278  sudo cp -r ./* /var/www/html/
+  279  ls
+  280  clear
+  281  ls
+  282  mkdir key
+  283  mv serverKey key
+  284  ls 
+  285  cd key
+  286  ls
+  287  ssh -i ./serverKey root@185.73.37.70
+  288  sudo ssh -i ./serverKey root@185.73.37.70
+  289  clear
+  290  ls
+  291  cd key
+  292  sudo ssh -i ./serverKey root@89.107.60.191
+  293  cd keys
+  294  cd key
+  295  sudo ssh -i ./serverKey root@89.107.60.191
+  296  sudo apt install mysql-client -y
+  297  sudomysql -u dev -p -h 89.107.60.191
+  298  sudo mysql -u dev -p -h 89.107.60.191
+  299  sudo mysql -u boonfuDev -p -h 89.107.60.191
+  300  sudo ssh -i ./serverKey root@89.107.60.191
+  301  sudo mysql -u dev -p
+  302  sudo mysql -u dev -p -h 89.107.60.191
+  303  sudo mysql -u root -p -h 89.107.60.191
+  304  sudo mysql -u dev -p -h 89.107.60.191
+  305  sudo mysql -u dev -p -h 89.107.60.191 --ssl-mode=disabled
+  306  ls
+  307  cd key
+  308  ls
+  309  mkdir mysql 
+  310  cd mysql/
+  311  ls
+  312  cd ../
+  313  sudo chmod 700 ./mysql/
+  314  sudo chmod 700 ./mysql
+  315  cd mysql/
+  316  sudo vi ca.pem
+  317  sudo vi client-cert.pem
+  318  sudo vi client-key.pem
+  319  sudo mysql -u dev -p -h 89.107.60.191
+  320  sudo mysql -u dev -p -h 89.107.60.191 --ssl-ca=./ca.pem --ssl-cert=./client-cert.pem --ssl-key=./client-key.pem
+  321  ls
+  322  sudo mysql -u dev -p -h 89.107.60.191 --ssl-ca=./ca.pem --ssl-cert=./client-cert.pem --ssl-key=./client-key.pem
+  323  sudo mysql -u dev -p -h 89.107.60.191 --ssl-ca=./ca.pem --ssl-cert=./client-cert.pem --ssl-key=~/key/mysql/client-key.pem
+  324  pwd
+  325  sudo mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  326  mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  327  ls
+  328  cat client-key.pem 
+  329  clear
+  330  sudo mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem
+  331  mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  332  pwd
+  333  ls
+  334  chmod 777 ./*
+  335  sudo chmod 777 ./*
+  336  mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  337  openssl rsa -in client-key.pem -out client-key1.pem
+  338  openssl rsa -in ./client-key.pem -out client-key1.pem
+  339  vi client-key.pem 
+  340  openssl rsa -in ./client-key.pem -out client-key1.pem
+  341  clear
+  342  cd ../
+  343  ls
+  344  sudo scp -i serverKey root@89.107.60.191:/var/lib/mysql/client-key.pem ./mysql/
+  345  ls
+  346  cd mysql/
+  347  ls
+  348  openssl rsa -in ./client-key.pem -out client-key1.pem
+  349  mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  350  sudo scp -i serverKey root@89.107.60.191:/var/lib/mysql/client-cert.pem ./mysql/
+  351  cd ../
+  352  sudo scp -i serverKey root@89.107.60.191:/var/lib/mysql/client-cert.pem ./mysql/
+  353  sudo scp -i serverKey root@89.107.60.191:/var/lib/mysql/ca.pem ./mysql/
+  354  clear
+  355  exit
+  356  clear
+  357  vi .my.cnf
+  358  sudo mysql -u dev -p 89.107.60.191
+  359  sudo mysql -u dev -p -h 89.107.60.191
+  360  mysql -u dev -p -h 89.107.60.191 --ssl-ca=/home/samez/key/mysql/ca.pem --ssl-cert=/home/samez/key/mysql/client-cert.pem --ssl-key=/home/samez/key/mysql/client-key.pem
+  361  ls
+  362  ls -al
+  363  sudo vi .my.cnf 
+  364  mysql
+  365  cd script
+  366  mkdir script
+  367  cd script
+  368  ls
+  369  clear
+  370  cd ../
+  371  cd script/
+  372  ls
+  373  sudo vi install_jenkins.sh
+  374  vi test.sh
+  375  chmod +x ./test.sh 
+  376  ls
+  377  ./test.sh
+  378  cat test.sh
+  379  vi ./test.sh 
+  380  ./test.sh
+  381  chmod +x install_jenkins.sh 
+  382  sudo chmod +x install_jenkins.sh 
+  383  vi install_jenkins.sh 
+  384  ./install_jenkins.sh 
+  385  vi install_jenkins.sh 
+  386  ./install_jenkins.sh 
+  387  exit
+  388  cd key
+  389  sudo ssh -i ./serverKey root@89.107.60.191
+  390  exit
+  391  clear
+  392  sudo apt remove nginx
+  393  sudo systemctl status nginx
+  394  sudo systemctl stop ngix
+  395  sudo systemctl stop nginx
+  396  sudo systemctl status nginx
+  397  sudo apt uninstall nginx
+  398  clear
+  399  sudo apt search apache2
+  400  clear
+  401  sudo apt install apache2
+  402  clear
+  403  sudo systemctl status apache2
+  404  clear
+  405  ls
+  406  ls /var/www/html/
+  407  ls
+  408  cd dev
+  409  ls
+  410  sudo vi ./src/constants/routes.js 
+  411  git branch
+  412  git pull origin dev
+  413  git stash
+  414  git pull origin dev
+  415  clear
+  416  ls
+  417  clear
+  418  sudo vi ./src/constants/routes.js 
+  419  npm run dev
+  420  sudo vi ./src/constants/routes.js 
+  421  cat .env
+  422  sudo vi ./src/constants/routes.js 
+  423  npm run dev
+  424  sudo vi ./src/App.jsx 
+  425  sudo vi ./src/pages/auth/Login.jsx 
+  426  npm run dev
+  427  sudo vi ./src/pages/auth/Login.jsx 
+  428  npm run dev
+  429  sudo vi ./src/pages/auth/Login.jsx 
+  430  npm run dev
+  431  ls
+  432  rm -r -d dist
+  433  ls
+  434  npm install -g server
+  435  npm run build
+  436  sudo systemctl status apache2
+  437  sudo systemctl stop apache2
+  438  ls
+  439  server -s dist -l 80
+  440  serve -s dist -l 80
+  441  npx serve -s dist -l 80
+  442  sudo npx serve -s dist -l 80
+  443  npx  serve -s dist -l 8088
+  444  clear
+  445  ls
+  446  sudo rm -r /var/www/html/*
+  447  cp ./dist/* /var/www/html/
+  448  cp -r ./dist/* /var/www/html/
+  449  sudo cp -r ./dist/* /var/www/html/
+  450  sudo systemctl start apache2
+  451  sudo systemctl status apache2
+  452  cd /var/www/
+  453  sudo mkdir /var/www/boonfu
+  454  sudo chown -R $USER@$USER /var/www/boonfu
+  455  /etc/passwd
+  456  sudo /etc/passwd
+  457  sudo cat /etc/passwd
+  458  clear
+  459  sudo chmod -R 755 /var/www/boonfu
+  460  sudo vi /var/www/boonfu/index.html
+  461  sudo nano /etc/apache2/sites-available/boonfu.conf
+  462  sudo a2ensite boonfu.conf
+  463  sudo a2dissite 000-default.conf
+  464  sudo apache2ctl configtest
+  465  sudo nano /etc/apache2/sites-available/boonfu.conf
+  466  sudo apache2ctl configtest
+  467  sudo systemctl status apache2.service -l --no-pager
+  468  sudo nano /etc/apache2/apache2.conf
+  469  sudo apachectl configtest
+  470  sudo systemctl restart apache2
+  471  sudo nano /etc/apache2/sites-available/boonfu.conf
+  472  sudo service apache2 restart
+  473  sudo nano /var/www/boonfu/.htaccess
+  474  sudo a2enmod rewrite
+  475  sudo nano /etc/apache2/sites-available/default
+  476  sudo ls /etc/apache2/sites-available/
+  477  sudo ls /etc/apache2/sites-available/boonfu.conf
+  478  sudo vi /etc/apache2/sites-available/boonfu.conf
+  479  sudo vi /var/www/boonfu/.htaccess
+  480  sudo systemctl reload apache2
+  481  sudo systemctl restart apache2
+  482  clear
+  483  cd ~
+  484  clear
+  485  cd dev
+  486  ls
+  487  cp -r ./dist/* /var/www/boonfu/
+  488  sudo cp -r ./dist/* /var/www/boonfu/
+  489  clear
+  490  history
+  491  clear
+  492  cd /var/www/
+  493  df ./boonfu
+  494  du -sh ./boonfu
+  495  clear
+  496  history
+  497  ls
+  498  ftp files.000webhost.com
+  499  zip
+  500  sudo apt install zip unzip -y
+  501  clear
+  502  zip boonfu.zip boonfu
+  503  sudo zip boonfu.zip boonfu
+  504  l
+  505  ftp files.000webhost.com
+  506  history > apache_stuff.txt
